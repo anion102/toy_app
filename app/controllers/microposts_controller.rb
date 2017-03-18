@@ -1,3 +1,4 @@
+#encoding:UTF-8
 class MicropostsController < ApplicationController
   before_action :set_micropost, only: [:show, :edit, :update, :destroy]
 
